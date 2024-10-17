@@ -1,20 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Pirata+One&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
-:root {
---cor-de-fundo: #AF8F6F;
---cor-primaria: #74512D;
---cor-secundaria: #543310;
---fontes: "Vollkorn", serif;
+:root{
+    --cor-de-fundo: #2d1533;
+    --cor-primaria: #0f1136;
+    --cor-secundaria: #2d3106;
+    --fonte: "Nunito Sans", sans-serif;
 }
 *{
     margin: 0;
     padding: 0;
 }
-
-body {
+body{
     background-color: var(--cor-de-fundo);
     color: var(--cor-primaria);
-    font-family: var(--fontes);
+    font-family: var(--fonte);
     height: 100vh; 
     margin: 0;
 }
@@ -50,3 +49,23 @@ nav a:hover{
     transition: transform 1s;
 }
 
+span{
+    color: var(--cor-secundaria);
+    font-weight: bold;
+}
+
+footer{
+    text-align: center;
+    background-color: var(--cor-primaria);
+    color: var(--cor-de-fundo);
+}
+
+.graficos-container{
+    margin: 5rem;
+}
+
+.graficos-texto{
+    font-size: 1.3rem;
+    border: var(--cor-secundaria) solid 2px;
+    padding: 2rem;
+}

@@ -1,6 +1,6 @@
 import { getCSS } from "./comum.js";
-import { tickfont } from "./comum.js";
 import { criarGrafico } from "./comum.js";
+console.log('fora funcionou')
 async function redesFavoritasMundo() {
     const url = 'https://raw.githubusercontent.com/guilhermeonrails/api/main/redes-favoritas.json';
     const res = await fetch(url);

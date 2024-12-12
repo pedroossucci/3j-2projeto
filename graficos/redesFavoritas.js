@@ -27,13 +27,14 @@ async function redesFavoritasMundo() {
             x: 0,
             font: {
                 color: getCSS('--cor-primaria'),
-                size: 16
+                family: getCSS('--fonte'),
+                size: 30
             }
         },
 
         legend: {
             font: {
-                color: getCSS('--cor - primaria'),
+                color: getCSS('--cor-primaria'),
                 size: 16
             }
         }

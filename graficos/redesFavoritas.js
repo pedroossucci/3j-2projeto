@@ -41,7 +41,7 @@ async function redesFavoritasMundo() {
         
     
     };
-
+    console.log("até aqui funcionou")
 
     criarGrafico(data, layout);
 }

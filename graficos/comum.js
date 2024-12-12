@@ -20,5 +20,4 @@ function criarGrafico(data, layout) {
     Plotly.newPlot(grafico, data, layout, config)
 }
 
-export { getCSS, tickConfig, criarGrafico }
-
+export { getCSS, tickfont, criarGrafico }
